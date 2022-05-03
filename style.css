@@ -1,0 +1,47 @@
+body{
+font-size: 35px;
+font-family: 'Cookie', cursive;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+#score{
+float: left;
+margin-left: 25px;
+}
+
+#timer{
+float: right;
+margin-right: 25px;
+}
+
+#clear{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+}
+
+.modal-title{
+    font-size: 50px;
+}
+
+#show_sketch{
+    font-size: 25px;
+    float: right;
+    margin-right: 25px;
+}
+
+canvas{
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 220px;
+}
+@keyframes example{
+    to{box-shadow: 1px 1px 38px #ffc107;}
+    from{box-shadow: 1px 1px 38px whitesmoke;}
+}
